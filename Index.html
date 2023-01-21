@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <!--End of Bootstrap-->
+    <!--
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Mini Project</title>
+    <script type="text/javascript">
+        function submitForm(){
+           //console.log();
+           if(document.getElementById("name").value !== ""
+           && document.getElementById("email").value !== ""
+           && document.getElementById("phone").value !== ""
+           && document.getElementById("message").value !== "")
+           document.getElementById("btn-Modal").click();
+        }
+
+    </script>
+
+</head>
+<body>
+    
+<!--Start of Navbar-->
+    <nav class="navbar navbar-light bg-light fixed-top shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-dark fw-bold fs-4" href="#">Welcome to My Portfolio</a>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</button>
+</div>
+</nav>
+<!--End of Navbar-->     
+
+<!--Start of Home-->
+    <section class="home" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="image/straw.jpg" class="rounded-circle mw-100" alt="strawhat">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first"> <!--"order-md-first" is to swap position-->
+                <div class="home-text">
+                    <h1 class="text-danger fs-1 fw-bold">I'm John Michael Cacanindin</h1>
+                    <h1 class="fs-4">Full Stack Web Developer</h2>
+                    <p class="mt-3 text-muted">I have a recent experience in BPO and RPO industry. A BSIT graduate where I started to learn about web designing until being a Full Stack Web Developer became my dream</p>
+                    <a href="#portfolio" class="btn btn-danger px-3">Contact Me</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Home-->     
+
+<!--Start of About-->
+    <section class="bg-white" id="about">
+        <div class="container-lg" style="padding-top: 100px; padding-bottom: 100px">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">About Me</h2>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md">
+                        <div class="about-text">
+                            <h3 class="fs-4 mb-3">I design and code beautifully simple things and I love what I do. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptatem!</h3> 
+                        </div>
+
+                        <div class="container">
+                            <div class="row text-center text-uppercase my-3">
+                                <div class="col-sm-4">
+                                    <div class="fact-item">
+                                        <h4 class="fs-1 fw-bold">1</h4>
+                                        <p>Projects Completed</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="fact-item">
+                                        <h4 class="fs-1 fw-bold">1</h4>
+                                        <p>Ongoing Projects</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="fact-item">
+                                        <h4 class="fs-1 fw-bold">1</h4>
+                                        <p>Satisfied Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                        <div class="row">
+                            <div class="col text-allign-center">
+                                <div class="social-links">
+                                    <a href="#" class="text-dark me-2"><i class="fab fa-2x fa-large fa-facebook"></i></a>
+                                    <a href="#" class="text-dark me-2"><i class="fab fa-2x fa-twitter"></i></a>
+                                    <a href="#" class="text-dark me-2"><i class="fab fa-2x fa-telegram"></i></a>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <!--
+                        <div class="col-md-6"> 
+                            <div class="skill-item mb-4">
+                                <h3 class="fs-6">HTML</h3>
+                                <div class="progress" style="height: 5px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+                                  </div>
+                            </div>
+                            <div class="skill-item mb-4">
+                                <h3 class="fs-6">CSS</h3>
+                                <div class="progress" style="height: 5px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                                  </div>
+                            </div>
+                            <div class="skill-item mb-4">
+                                <h3 class="fs-6">Bootstrap</h3>
+                                <div class="progress" style="height: 5px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                  </div>
+                            </div>
+                            <div class="skill-item mb-4">
+                                <h3 class="fs-6">Javascript</h3>
+                                <div class="progress" style="height: 5px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+                                  </div>
+                            </div>
+                    </div>
+                -->
+            </div>
+        </div>
+    </section>
+<!--End of About-->
+
+
+<!--Start of Services-->
+<div id="services">
+<section class="services bg-white py-5">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">My Services</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="icon my-3 text-danger">
+                        <i class="fa fa-code" style="font-size: 48px;"></i>
+                    </div>
+                    <h3 class="fs-5 py-2">Full Stack Web Development</h3>
+                    <p class="text-muted">Planning to have a full functioning website? Let me know your idea and I will help you to create it.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="icon my-3 text-danger">
+                        <i class="fa-solid fa-cube" style="font-size: 48px;"></i>
+                    </div>
+                    <h3 class="fs-5 py-2">Front End Design</h3>
+                    <p class="text-muted">Thinking about getting an attractive yet simple design for your website? Let us talk about it!</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="service-item shadow-sm p-4 rounded bg-white">
+                    <div class="icon my-3 text-danger">
+                        <i class="fa-brands fa-wordpress" style="font-size: 48px;"></i>
+                    </div>
+                    <h3 class="fs-5 py-2">CMS Developer</h3>
+                    <p class="text-muted">There is nothing more easier than using CMS for creating a website. Let me help you from A to Z</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!--End of Services-->  
+
+<!--Start of Project-->
+
+<section class="project py-5">
+    <div  id="project">
+    <div class="container-lg" style="padding-top: 100px;">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Projects</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--End of Project-->  
+
+
+<!--Start of Portfolio-->
+<section class="portfolio bg-white py-8" id="porfolio">
+    <div class="container-lg">
+<!--Start of Card-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="image/kasanggayahan.jpg" class="card-img-top" alt="kasanggayahan">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Santol Project</h5>
+                        <p class="card-text">A travel dedicated for Sorsogon City blog that shows places, events and many more.</p>
+                        <a href="project/mini.html" target="_blank" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="image/luffy1.jpg" class="card-img-top" alt="luffy">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Animeniac</h5>
+                        <p class="card-text">Website created for Anime fans that also caters Shonen, Shojo, Kodomomuke, mangga and many more. </p>
+                            <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Page still on progress
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Project still under construction</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+  </div>
+<!--End of Card-->
+    </div>
+</section>
+<!--End of Portfolio-->  
+<br>
+<br>
+<br>
+<br>
+<!--Start of Subscribe-->
+<section class="subscribe-available py-3 bg-danger">
+    <div class="container-lg py-3">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <p class="text-light fs-5">Do you have any project?</p>
+                <h2 class="fs-1 text-white py-1">Let us discuss your dream website.</h2>
+            </div>
+        </div>
+        </div>
+</section>
+<!--End of Subscribe-->
+
+<!--Start of Contact-->
+<section class="contact py-5" id="contact">
+<div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Contact Me</h2>
+                </div>
+            </div>
+        </div>
+<div class="row">
+        <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-danger">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="text ms-3">
+                    <h3 class="fs-5">Email:</h3>
+                    <p class="text-muted">jaelcacanindin@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-danger">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="text ms-3">
+                    <h3 class="fs-5">Phone:</h3>
+                    <p class="text-muted">+(63) 947 675 3624</p>
+                </div>
+            </div>
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-danger">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Office:</h3>
+                        <p class="text-muted">Philippines</p>
+                    </div>
+                </div>
+        </div>
+
+            <div class="col-md-7">
+            <div class="contact-form">
+                <div class="container">
+                    <!--
+                        An option to make a working email button
+                    <form action="https://formsubmit.co/virtuallancer07@gmail.com" method="POST">
+                    -->
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="text" class="form-control" id="email" required/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="text" class="form-control" id="phone" required/>    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control"  id="message" rows="5" type="text" placeholder="Your Message" required></textarea>
+                            </div>
+                        </div>         
+                        
+                        <input type="submit" class="btn btn-danger" value="Send Message" onclick="submitForm()"/>
+                        
+                                                    <!-- Button trigger modal -->
+                        <button type="button" id="btn-Modal" style="display:none" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#messagesend">
+                        Send Mesage
+                        </button>
+
+                        <!-- Start of Modal -->
+                        <div class="modal fade" id="messagesend" tabindex="-1" aria-labelledby="messagesendModal" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="messagesendModal">Message Sent</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Your message has been sent to John Michael. Please expect a response within 24 hours.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                onclick="window.location.reload()">Close</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- End of Modal -->
+                    </form>
+                </div>
+            </div>
+            </div>
+</div>
+    </div>
+</section>
+<!--End of Contact--> 
+
+<!--Start of Footer-->
+<footer class="footer border-top py-4">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="m-0 text-center text-muted">&copy; 2023 My Portfolio</p>
+                <p class="m-0 text-center text-muted">John Michael C.</p>
+            </div>
+        </div>
+    </div>
+</footer> 
+<!--End of Footer--> 
+
+    <!--JS Seperate-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <!--End of JS Seperate-->
+
+</body>
+</html>
